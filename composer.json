@@ -1,7 +1,7 @@
 {
-    "name": "conikal/flarum-vietnamese",
+    "name": "conikal/lang-vietnamese",
     "type": "flarum-extension",
-    "description": "Vietnamese language pack for Flarum and its bundled extensions.",
+    "description": "Vietnamese language pack for Flarum.",
     "homepage": "https://toitomo.com/",
     "keywords": ["locale"],
     "license": "MIT",
