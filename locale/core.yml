@@ -294,7 +294,7 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Tài khoản
+      account_heading: Tài khoản SMTP
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
