@@ -39,9 +39,9 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Không bao giờ thông báo. Ẩn khỏi danh sách câu hỏi.
       not_following_button: Không theo dõi
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      not_following_text: "Chỉ thông báo khi được @nhắc đến."
+      notify_alert_tooltip: Nhận thông báo khi có câu trả lời mới
+      notify_email_tooltip: Nhận email khi có câu trả lời mới
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
