@@ -330,8 +330,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Vừa xong
-      original_post_link: Bài gốc
+      now_link: Mới nhất
+      original_post_link: Đầu tiên
       unread_text: "{count} chưa đọc"
       viewing_text: "{index} trong {count} trả lời|{index} trong {count} trả lời"
 

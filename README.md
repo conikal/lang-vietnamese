@@ -5,7 +5,7 @@ Translated for question and answer forum site [Toitomo](https://toitomo.com/) by
 
 ### Installation
 
-Open terminal cd to your project path and type
+Open terminal on your server. Move to your project path and type
 
 ```
-composer require conikal/flarum-vietnamese
+composer require conikal/lang-vietnamese
