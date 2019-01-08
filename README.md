@@ -9,4 +9,3 @@ Open terminal cd to your project path and type
 
 ```
 composer require conikal/flarum-vietnamese
-```# lang-vietnamese
