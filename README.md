@@ -8,4 +8,4 @@ Translated for question and answer forum site [Toitomo](https://toitomo.com/) by
 Open terminal cd to your project path and type
 
 ```
-composer require conikal/flarum-vietnamese
+composer require conikal/lang-vietnamese
