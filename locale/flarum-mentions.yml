@@ -30,7 +30,7 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: Ai đó trả lời một trong những câu hỏi của tôi
-      notify_user_mentioned_label: Ai đó nhắc đến đến tôi trong một trả lời
+      notify_user_mentioned_label: Ai đó nhắc đến tôi trong một trả lời
 
     # These translations are used in the user profile page and profile popup.
     user:

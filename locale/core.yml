@@ -204,7 +204,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Kể một câu chuyện để giải thích vấn đề mà bạn đang gặp phải khi đặt câu hỏi này...
+      body_placeholder: Giải thích chi tiết vấn đề mà bạn đang gặp phải...
       discard_confirmation: "Bạn chưa đăng câu hỏi của mình. Bạn có muốn loại bỏ nó không?"
       submit_button: Đăng câu hỏi
       title: => core.ref.start_a_discussion
@@ -279,7 +279,7 @@ core:
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
-    # These translations are used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.af
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
