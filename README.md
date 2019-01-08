@@ -1,11 +1,11 @@
-# Gói ngôn ngữ Tiếng việt dành cho [Flarum](http://flarum.org/)
+# Vietnamese language pack for [Flarum](http://flarum.org/)
 
-Gói ngôn ngữ Tiếng việt dành cho Flarum.
+Translated for question and answer forum site [Toitomo](https://toitomo.com/) by Conikal
 
 
-### Dùng trình quản lý gói Composer
+### Installation
 
-Dùng trình quản lý gói trong dự án của bạn và chạy dòng lệnh sau:
+Open terminal cd to your project path and type
 
 ```
 composer require conikal/flarum-vietnamese

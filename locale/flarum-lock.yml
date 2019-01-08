@@ -9,14 +9,14 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Khoá cuộc thảo luận
+      lock_discussions_label: Khóa câu hỏi
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Đã khóa
+      locked_tooltip: Đã Khóa
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -25,13 +25,13 @@ flarum-lock:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "Khóa thành viên {username}"
+      discussion_locked_text: "{username} đã khóa"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} đã khóa bài viết."
-      discussion_unlocked_text: "{username} đã mở bài viết."
+      discussion_locked_text: "{username} khóa trả lời."
+      discussion_unlocked_text: "{username} mở khóa trả lời."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Cuộc thảo luận bạn tham gia bị khoá
+      notify_discussion_locked_label: Ai đó đã khóa câu hỏi của tôi

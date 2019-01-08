@@ -11,10 +11,10 @@ flarum-statistics:
     statistics:
       active_users_text: "{count} hoạt động"
       discussions_heading: => core.ref.discussions
-      last_12_months_label: 12 Tháng gần đây
-      last_28_days_label: 28 Ngày gần đây
-      last_7_days_label: 7 Ngày gần đây
+      last_12_months_label: 12 tháng gần nhất
+      last_28_days_label: 28 ngày gần đây
+      last_7_days_label: 7 ngày gần đây
       posts_heading: => core.ref.posts
-      today_label: Hôm nay
-      total_label: Tổng
+      today_label: Hôm này
+      total_label: Tổng số
       users_heading: => core.ref.users

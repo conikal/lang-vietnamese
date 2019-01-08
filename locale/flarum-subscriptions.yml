@@ -16,7 +16,7 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: Bỏ theo dõi
-      unignore_button: Unignore
+      unignore_button: Không bỏ qua
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,23 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} đã đăng"
 
     # These translations are used in the Settings page.
     settings:
-      notify_new_post_label: Có phản hồi mới trong bài viết bạn theo dõi
+      follow_after_reply_label: Tự động theo dõi các câu hỏi mà tôi trả lời
+      notify_new_post_label: Ai đó trả lời trong một câu hỏi tôi đang theo dõi
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Nhận thông báo mỗi khi có phản hồi mới.
+      following_text: Thông báo về tất cả các câu trả lời.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Ngừng nhận thông báo. Ẩn các danh sách thảo luận.
-      not_following_button: Chưa theo dõi
+      ignoring_text: Không bao giờ thông báo. Ẩn khỏi danh sách câu hỏi.
+      not_following_button: Không theo dõi
       not_following_text: "Be notified only when @mentioned."
-      notify_email_tooltip: Nhận email mỗi khi có bài viết mới
-      notify_alert_tooltip: Nhận thông báo khi có bài viết mới
+      notify_alert_tooltip: Get a forum notification when there are new posts
+      notify_email_tooltip: Get an email when there are new posts
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Theo dõi
-    following: Đang theo dõi
+    following: Theo dõi
     ignoring: Bỏ qua

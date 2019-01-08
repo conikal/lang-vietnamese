@@ -13,20 +13,24 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} đình chỉ bạn vì {timeReadable}"
+      user_unsuspended_text: "{username} cho phép bạn hoạt động trởi lại"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Đình chỉ ngay
-      limited_time_label: Dình chỉ trong thời gian...
-      limited_time_days_text: " days"
-      not_suspended_label: Chưa đình chỉ
-      status_heading: Tình trạng
+      indefinitely_label: Đình chỉ vô thời hạn
+      limited_time_days_text: " ngày"
+      limited_time_label: Bị đình chỉ trong một thời gian giới hạn ...
+      not_suspended_label: Không bị đình chỉ
+      status_heading: Tình trạng đình chỉ
       submit_button: => core.ref.save_changes
-      title: "Suspend {user}"
+      title: "Đình chỉ {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Đã đình chỉ
+      suspended_tooltip: Đã bị đình chỉ
 
     # These translations are found on the user profile page (admin function).
     user_controls:
